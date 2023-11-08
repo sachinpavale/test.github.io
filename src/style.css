@@ -184,13 +184,14 @@ h1 {
     text-align: center;
     font-size: 2.5em;
     font-weight: bold;
+    /* color: #ea4d53; */
     color: #ea4d53;
 }
 .about-left h2{
     margin: 0 0 10px 0 ;
 }
 p {
-    /* padding: 5PX 0; */
+    padding: 5PX 0;
     font-weight: 300;
     text-align: justify;
     color: #0e1d2c;
@@ -617,8 +618,8 @@ img {
     .navigation.active{
         z-index: 999;
         width: 100%;
-        max-height: 25px;
-        background: #0e1d2c;top: 0;right: 0;
+        max-height: 29px;
+        background: #0e1d2c00;top: 0;right: 0;
         border-radius: 0;
         /* position: fixed; */
         padding: 2px 0 ;
@@ -628,16 +629,21 @@ img {
         box-shadow: 0 5px 28px rgba(1 1 1 / 15%);transition: .3s ease;
     }
     .navigation a{
-        margin: 3.8%;
-        color: #fff;font-size: .9em; 
-        font-weight: 300;
+        /* margin: 3.8%; */
+        background: #0e1d2c;
+        padding: 0px 10px;
+        border-radius: 30px;
+        color: #ffffff;
+        font-size: 1em; 
+        font-weight: 400;
         /* margin: 40px;padding:  40px; */
     }
     .navigation a:hover{
-        padding: 8px 5px;
-        color: #ea4d53;
-        transition: .3s ease;
+        background: #0e1d2c;
+        padding: 02px 10px;
         border-radius: 30px;
-        font-weight: 200;
+        color: #ffffff;
+        transition: .3s ease;
+        font-weight: 400;
     }
 }
